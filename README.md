@@ -5,18 +5,18 @@ This is a probot app that welcomes new users to a repo by guiding them through a
 
 When a user comments on a particular issue (a "get started here" issue), an invitation is sent for them to become a collaborator. 
 
-Then, after accepting the invitation, when the user forks the repo, a new issue is created on the original issue that is assigned to the user. 
+Then, after accepting the invitation, when the user forks the repo, a new issue is created on the original repo that is assigned to the user. 
 
 Each action that is listed in the issue triggers an event (push, pull request, close issue), and the user gets a "reward" in the form of a funny comment on their issue. 
 
-This is a fun way of gently introducing newbies to Github in an easy and entertaining way.
+This is a fun way of gently introducing newbies to GitHub in an easy and entertaining way.
 
 
 ---
 
 ## Getting Started
 
-To use this "Welcome newcomers" on your repo, follow these steps:
+To use this "Welcome newcomers" bot on your repo, follow these steps:
  
 1 - Choose a repo or start a new one where you want to use the app. The repository __cannot__ be empty, so feel free to populate it with a README.md file containing the User Steps guide below.
 
@@ -50,3 +50,5 @@ Each user will have to go through the following steps in order to complete their
 4 - A issue with the title "Welcome (Your name)" will be created and assigned to you. You can either follow the link in your e-mail confirmation or look for the issue by going to the original repo (not your fork, but the repo where you started off) and clicking the Issues tab. There you can filter by Assignee -> Your name.
 
 5 - In this issue you will find instructions with the tasks you need to complete. __Have fun!__ 
+
+_This bot was created by Virginia Balseiro ([GitHub](https://github.com/VirginiaBalseiro), [LinkedIn](https://www.linkedin.com/in/virginia-balseiro)) at the request and specifications of Ilona Budapesti ([GitHub](http://github.com/ilonabudapesti/), [LinkedIn](http://linkedin.com/in/ilonabudapesti)) as part of Volunteer Cohort #2 of 1 Million Women To Tech ([GitHub](https://github.com/1millionwomentotech), [Learn to Code](https://memberportal.1millionwomentotech.com/diy), [Mentor](https://github.com/1millionwomentotech/toolkitten/blob/master/howto/become-mentor.md)) a Silicon Valley based global educational 501(c)3 recognized nonprofit with the mission to offer free coding education to 1 million women and enbies by 2020._
